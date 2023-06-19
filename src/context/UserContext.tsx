@@ -3,6 +3,9 @@ import React, { createContext, useState } from "react";
 type AuthUser = {
   email: string;
   name: string;
+  id: string;
+  token: string;
+  isAdmin: boolean;
 };
 
 export type UserContextType = {
